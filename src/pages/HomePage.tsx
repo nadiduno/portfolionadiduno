@@ -1,3 +1,4 @@
+import { Sidebar } from '../components/Sidebar'
 import styles from './HomePage.module.css'
 
 export function HomePage() {
@@ -6,7 +7,7 @@ export function HomePage() {
             {/* <Header /> */}
             <main className={styles.container}>
                 <div>
-                    Sidebar
+                    <Sidebar />
                 </div>
                 <div>
                     Presentação
