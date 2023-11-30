@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+[![Author](https://img.shields.io/badge/Dev-Nadi%20Duno-blueviolet%20)](https://portfolio-nadi.vercel.app/)
+[![Social](https://img.shields.io/twitter/follow/nadiduno?label=%40nadiduno&style=social)](https://twitter.com/nadiduno)
+[![Linkedin](https://img.shields.io/badge/in-Nadi%20Duno-blue)](https://www.linkedin.com/in/nadiduno/)
+<br />
+<br />
+#Portfólio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Apresentando meus trabalhos com as principais tecnologias do mercado: 
+- Dados: (SQL Python | PowerBi)
+- Desenvolvimento web: (React | TypeScript | TailwindCSS) 
 
-Currently, two official plugins are available:
+<br />
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div>
+  <img 
+    alt="Portfólio de Nadi Duno"
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ImgApp.png" 
+    width="70%"
+  >
+  <br />
+</div>
 
-## Expanding the ESLint configuration
+![Languages](https://img.shields.io/badge/%3C%2F%3E-languages-lightgrey)<br/>
+[ReactJS](https://reactjs.org/) | [Vite](https://vitejs.dev/) | [Node.js](https://nodejs.org/en/download/) | [NPM](https://www.npmjs.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+# Cretate project | Vite
+$ npm create vite@latest
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Install the dependencies
+$ npm i
+
+# Run the developer
+$ npm run dev
 ```
+<br />
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+By DevRel <::heart:: /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2023
+<br />
+<br />
+
+Este é meu [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
+<br />
+<br />
+
+[Link do Potfólio](https://portfolio-nadi.vercel.app/) 
