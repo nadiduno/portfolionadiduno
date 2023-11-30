@@ -1,6 +1,7 @@
 // import { NavLink } from 'react-router-dom'
 import styles from './DataScience.module.css'
 import { DataProject } from './DataProject'
+import { DataPython } from './DataPython'
 
 
 export function DataScience() {
@@ -12,6 +13,7 @@ export function DataScience() {
       </p>
       <hr />
       <div className={styles.wrap}>
+        <DataPython />
         <DataProject />
       </div>
       </div>
