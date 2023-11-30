@@ -1,0 +1,53 @@
+.layout {
+    width: 80%;
+}
+
+.boxmain {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.textdynamic {
+    color: var(--violet-500);
+    font-size: 1.5rem;
+}
+
+.text1 {
+    color: var(--green-700);
+}
+
+.logoteach {
+    width: 1rem;
+    padding: .25rem;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logoteach:hover {
+    filter: drop-shadow(0 0 .5em #646cffaa);
+}
+  
+.wrap {
+    display: flex;
+    gap: .5rem;
+}
+
+
+@media ((min-width: 768px)) {
+    .wrapper {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .textdynamic {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .text1 {
+        padding: 2rem 0;
+    }
+    .logoteach {
+        width: 2rem;
+    }
+}
