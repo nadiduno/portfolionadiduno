@@ -1,5 +1,6 @@
 .layout {
     width: 80%;
+    /* margin: 0 auto; */
 }
 
 .boxmain {
@@ -25,9 +26,9 @@
 }
 
 .logoteach:hover {
-    filter: drop-shadow(0 0 .5em #646cffaa);
+    filter: drop-shadow(0 0 .75em #646cffaa);
 }
-  
+
 .wrap {
     display: flex;
     gap: .5rem;

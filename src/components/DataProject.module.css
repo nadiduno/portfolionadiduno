@@ -1,0 +1,13 @@
+.layout {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+@media ((min-width: 768px)) {
+    .layout {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

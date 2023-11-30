@@ -1,0 +1,35 @@
+body {
+  position: fixed;
+}
+
+.header {
+  background: var(--gray-800);
+  font-size: 1rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.header a {
+  background-color: var(--gray-800);
+  color: var(--violet-500);
+  padding: .5rem;
+}
+
+.header a:last-child {
+  margin-left: 1.5rem;
+  color: var(--green-700);
+}
+
+.header a:hover {
+  background-color: var(--gray-800);
+  color: var(--white);
+  border: transparent;
+}
+
+@media ((min-width: 768px)) {
+  .header {
+    padding: 1rem 9rem;
+  }
+}

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+// import { NavLink } from 'react-router-dom'
+// import { AppMeType } from '../components/ApplicationMe'
 import styles from './Presentation.module.css'
 
 import logoStyled from '../assets/logoStyledComponent.svg'
@@ -25,10 +27,12 @@ export function Presentation() {
   const texts = ['Sou Cientista de Dados', 'Sou Desenvolvedora web', 'Sou Professora de TI'];
 
   useEffect(() => {
+    // Atualiza o índice do texto a cada 20 segundos
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
     }, 5000);
 
+    // Limpa o intervalo quando o componente é desmontado
     return () => clearInterval(interval);
   }, []);
 
@@ -39,7 +43,7 @@ export function Presentation() {
         <div className={styles.boxmain}>
           <div className={styles.box1}>
 
-            <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
+          <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
             <p>Formada em matemática com especialização em TI pela Universidade Federal Experimental "Francisco de Miranda" na Venezuela.</p>
             <span>Apaixonada por conectar</span>
             <span className={styles.text1}> pessoas </span>
@@ -68,7 +72,3 @@ export function Presentation() {
 
   )
 }
-
-
-
-

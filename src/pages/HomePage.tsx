@@ -1,10 +1,14 @@
-import { Presentation } from '../components/Presentation'
 import { Sidebar } from '../components/Sidebar'
+import { Presentation } from '../components/Presentation'
 import styles from './HomePage.module.css'
+import { DataScience } from '../components/DataScience'
+import { DeveloperWeb } from '../components/DeveloperWeb'
+import { TeacherTI } from '../components/TeacherTI'
 
 export function HomePage() {
     return (
         <>
+            {/* <Header /> */}
             <main className={styles.container}>
                 <div>
                     <Sidebar />
@@ -14,7 +18,11 @@ export function HomePage() {
                 </div>
             </main>
             <div className={styles.area}>
-                Areas
+                {/* <Areas /> */}
+                <h2>Meus trabalhos</h2>
+                <DataScience />
+                <DeveloperWeb />
+                <TeacherTI />
             </div>
 
         </>
