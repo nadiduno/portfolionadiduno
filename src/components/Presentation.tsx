@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import styles from './Presentation.module.css'
 
 import logoStyled from '../assets/logoStyledComponent.svg'
-import logoTypeScript from '../assets/logoTypescript.svg'
+import logoTypeScript from '../assets/logoTypeScript.svg'
 import logoMongoDB from '../assets/logoMongoDB.svg'
 import logoPython from '../assets/logoPython.svg'
 import logoSQL from '../assets/logoSQL.svg'
@@ -43,7 +43,7 @@ export function Presentation() {
         <div className={styles.boxmain}>
           <div className={styles.box1}>
 
-          <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
+            <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
             <p>Formada em matemática com especialização em TI pela Universidade Federal Experimental "Francisco de Miranda" na Venezuela.</p>
             <span>Apaixonada por conectar</span>
             <span className={styles.text1}> pessoas </span>
@@ -54,7 +54,7 @@ export function Presentation() {
             <p className={styles.text1}>Tech</p>
             <div className={styles.wrap}>
               {logos.map((logo, index) => (
-                
+
                 <img
                   key={index}
                   src={logo}
