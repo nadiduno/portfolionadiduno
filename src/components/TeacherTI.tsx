@@ -4,6 +4,7 @@ import styles from './TeacherTI.module.css'
 export function TeacherTI() {
     return (
         <div className={styles.layout}>
+            <br />
             <p className={styles.textmain}>Professora de TI</p>
             <p>
                 Gosto de criar conteúdos para ajudar pessoas que se estão iniciando na tecnologia.

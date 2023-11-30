@@ -4,6 +4,7 @@ import styles from './HomePage.module.css'
 import { DataScience } from '../components/DataScience'
 import { DeveloperWeb } from '../components/DeveloperWeb'
 import { TeacherTI } from '../components/TeacherTI'
+import { Footer } from '../components/footer'
 
 export function HomePage() {
     return (
@@ -24,7 +25,7 @@ export function HomePage() {
                 <DeveloperWeb />
                 <TeacherTI />
             </div>
-
+            <Footer />
         </>
     )
 }

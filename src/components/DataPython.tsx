@@ -24,17 +24,17 @@ const appsme: AppMeType[] = [
         },
         publishedAt: new Date('2023-04-20 23:30:00'),
     },
-    {
-        id: 3,
-        title: 'Depuração em Python',
-        about: 'Dados de imóveis - kaggle',
-        urlApp: {
-            photo: 'https://github.com/nadiduno/portfolionadiduno/blob/main/src/assets/python1.png?raw=true',
-            deploy: 'https://github.com/nadiduno/BootCampDataScience/blob/main/bootcampciencia_dedados_alura.ipynb',
-            github: 'https://github.com/nadiduno/BootCampDataScience/blob/main/bootcampciencia_dedados_alura.ipynb',
-        },
-        publishedAt: new Date('2023-04-03 08:00:00'),
-    },
+    // {
+    //     id: 3,
+    //     title: 'Depuração em Python',
+    //     about: 'Dados de imóveis - kaggle',
+    //     urlApp: {
+    //         photo: 'https://github.com/nadiduno/portfolionadiduno/blob/main/src/assets/python1.png?raw=true',
+    //         deploy: 'https://github.com/nadiduno/BootCampDataScience/blob/main/bootcampciencia_dedados_alura.ipynb',
+    //         github: 'https://github.com/nadiduno/BootCampDataScience/blob/main/bootcampciencia_dedados_alura.ipynb',
+    //     },
+    //     publishedAt: new Date('2023-04-03 08:00:00'),
+    // },
     {
         id: 4,
         title: 'Modelagem com SQL',

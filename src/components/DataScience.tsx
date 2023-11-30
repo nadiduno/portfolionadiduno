@@ -14,6 +14,9 @@ export function DataScience() {
       <hr />
       <div className={styles.wrap}>
         <DataPython />
+        <br />
+        <hr />
+        <p className={styles.textsubmain}>Dashboard - Métricas</p>
         <DataProject />
       </div>
       </div>

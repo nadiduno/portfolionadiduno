@@ -1,0 +1,18 @@
+
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+    align-items: flex-start;
+    gap: 0.725rem;
+    background: var(--white);
+    color: var(--gray-700);
+}
+
+
+@media ((min-width: 768px)) {
+    .container {
+        grid-template-columns: 25rem 1fr;
+    }
+}
