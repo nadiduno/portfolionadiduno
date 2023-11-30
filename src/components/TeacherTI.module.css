@@ -1,5 +1,5 @@
 .layout {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .wrap {
-    width: 60%;
+    width: 100%;
     display: flex;
     position: relative;
     aspect-ratio: 16/9;
@@ -20,6 +20,10 @@
         display: flex;
         gap: 2rem;
     }
+
+    .wrap {
+        width: 60%;
+    }    
 
     .textmain {
         font-size: 3rem;

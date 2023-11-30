@@ -5,7 +5,8 @@ export function Footer(){
         <>
             
         <footer className={styles.container}>
-            {'<💜/ > Nadi Duno | Cientista de Dados  | © 2023'}
+            <p>{'<💜/ > Nadi Duno'}</p> 
+            <p>|Cientista de Dados  | © 2023</p>
         </footer>
             
         </>

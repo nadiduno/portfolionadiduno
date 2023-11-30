@@ -2,12 +2,18 @@
     width: 100%;
     display: grid;
     justify-content: center;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 70%;
 }
 
 @media ((min-width: 768px)) {
     .layout {
-        width: 100%;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .wrap {
+        width: 100%;
     }
 }

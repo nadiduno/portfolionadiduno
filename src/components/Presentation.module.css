@@ -1,5 +1,5 @@
 .layout {
-    width: 80%;
+    width: 70%;
     /* margin: 0 auto; */
 }
 
@@ -19,8 +19,7 @@
 }
 
 .logoteach {
-    width: 1rem;
-    padding: .25rem;
+    width: 1.75rem;
     will-change: filter;
     transition: filter 300ms;
 }
@@ -32,10 +31,16 @@
 .wrap {
     display: flex;
     gap: .5rem;
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
 }
 
 
 @media ((min-width: 768px)) {
+    .layout {
+        width: 70%;
+        margin: 0 auto;
+    }
     .wrapper {
         display: flex;
         gap: 2rem;
@@ -46,9 +51,13 @@
         margin-top: 3rem;
     }
     .text1 {
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
     .logoteach {
         width: 2rem;
+        padding: .25rem;
+    }
+    .wrap {
+        grid-template-columns: repeat(12,1fr);
     }
 }

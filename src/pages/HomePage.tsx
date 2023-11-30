@@ -4,7 +4,7 @@ import styles from './HomePage.module.css'
 import { DataScience } from '../components/DataScience'
 import { DeveloperWeb } from '../components/DeveloperWeb'
 import { TeacherTI } from '../components/TeacherTI'
-import { Footer } from '../components/footer'
+import { Footer } from '../components/Footer'
 
 export function HomePage() {
     return (

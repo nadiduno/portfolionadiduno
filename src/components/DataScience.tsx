@@ -14,12 +14,9 @@ export function DataScience() {
       <hr />
       <div className={styles.wrap}>
         <DataPython />
-        <br />
-        <hr />
-        <p className={styles.textsubmain}>Dashboard - Métricas</p>
         <DataProject />
       </div>
-      </div>
+    </div>
 
   )
 }
@@ -31,8 +28,8 @@ export function DataScience() {
           Ver trabalhos na área de dados
         </NavLink>
       </nav> */}
-      {/* IMAGENES QUADRADAS  */}
-      {/* <div className={styles.box1}>
+{/* IMAGENES QUADRADAS  */ }
+{/* <div className={styles.box1}>
         <img
           className={styles.appdata}
           src='https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiPhotoCode.png?raw=true'
