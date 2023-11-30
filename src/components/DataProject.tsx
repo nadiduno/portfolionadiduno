@@ -9,7 +9,7 @@ const appsme: AppMeType[] = [
         urlApp: {
             photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App1.png?raw=true',
             deploy: 'https://app.powerbi.com/view?r=eyJrIjoiMWYxMTVkZjUtMTI2OS00NzBmLWI1MGMtOWQ0Nzc2YzMzNzVkIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
-            github: 'https://github.com/nadiduno/dataPublic',
+            github: 'https://github.com/nadiduno/DataCientists',
         },
         publishedAt: new Date('2023-06-11 20:00:00'),
     },
@@ -57,7 +57,7 @@ const appsme: AppMeType[] = [
         },
         publishedAt: new Date('2023-01-29 8:00:00'),
     },
-    
+
     {
         id: 6,
         title: 'Vila Móveis',
@@ -65,7 +65,7 @@ const appsme: AppMeType[] = [
         urlApp: {
             photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App6.png?raw=true',
             deploy: 'https://app.powerbi.com/view?r=eyJrIjoiODE4YTEyOTAtZjY1YS00Njc0LWEyM2YtNzBhZTQxZjcxMDNkIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
-            github: 'https://github.com/nadiduno/dataPublic',
+            github: 'https://pt.slideshare.net/nadi192002/projeto-power-bi-nadiveth-dunopdf',
         },
         publishedAt: new Date('2022-09-23 13:34:00'),
     }
@@ -83,7 +83,7 @@ export function DataProject() {
             {appsme.map((appme) => {
                 return <ApplicationMe key={appme.id} appme={appme} />
             })}
-            
+
         </main>
 
     )
