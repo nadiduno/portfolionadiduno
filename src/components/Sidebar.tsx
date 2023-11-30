@@ -1,11 +1,6 @@
-import React, { useState } from 'react';
 import styles from './Sidebar.module.css'
 
 export function Sidebar() {
-
-  const [hoveredInstagram, setHoveredInstagram] = useState(false);
-  const [hoveredLinkedin, setHoveredLinkedin] = useState(false);
-  const [hoveredYoutube, setHoveredYoutube] = useState(false);
 
   return (
     <aside className={styles.sidebar}>
@@ -17,23 +12,6 @@ export function Sidebar() {
           {/* <span className={styles.name3}>a DevRel</span> */}
         </div>
         <div className={styles.wrapper}>
-
-          {/* <a
-              href="https://www.slideshare.net/nadi192002/practica-1-de-photoshop-12676380"
-              target="_blank"
-              className={styles.socialnetworks}
-              rel="noreferrer"
-            >
-              Criação de Conteúdo
-            </a>
-            <a
-              href="https://devrelnadiduno.blogspot.com/2023/06/fronteditor-para-codar.html"
-              target="_blank"
-              className={styles.socialnetworks}
-              rel="noreferrer"
-            >
-              Diario de Estudo
-            </a> */}
 
           <div>
             <a
