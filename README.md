@@ -15,7 +15,7 @@ Apresentando meus trabalhos com as principais tecnologias do mercado:
 <div>
   <img 
     alt="Portfólio de Nadi Duno"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ImgApp.png" 
+    src="https://github.com/nadiduno/portfolionadiduno/blob/main/.github/ImgApp.png" 
     width="70%"
   >
   <br />
