@@ -3,8 +3,7 @@ import styles from './DataScience.module.css'
 import { DataProject } from './DataProject'
 import { DataPython } from './DataPython'
 
-
-export function DataScience() {
+export function DataScience () {
   return (
     <div className={styles.layout}>
       <p className={styles.textmain}>Em dados</p>
@@ -23,13 +22,13 @@ export function DataScience() {
 
 // Ideias a fazer
 
-{/* <nav>
+{ /* <nav>
         <NavLink to='' title='' className={styles.button1}>
           Ver trabalhos na área de dados
         </NavLink>
-      </nav> */}
-{/* IMAGENES QUADRADAS  */ }
-{/* <div className={styles.box1}>
+      </nav> */ }
+{ /* IMAGENES QUADRADAS  */ }
+{ /* <div className={styles.box1}>
         <img
           className={styles.appdata}
           src='https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiPhotoCode.png?raw=true'
@@ -65,6 +64,4 @@ export function DataScience() {
           </div>
         </div>
       </div>
-       */}
-
-
+       */ }

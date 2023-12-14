@@ -1,8 +1,8 @@
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player'
 import styles from './TeacherTI.module.css'
 
-export function TeacherTI() {
-    return (
+export function TeacherTI () {
+  return (
         <div className={styles.layout}>
             <br />
             <p className={styles.textmain}>Professora de TI</p>
@@ -19,5 +19,5 @@ export function TeacherTI() {
                 />
             </div>
         </div>
-    )
+  )
 }

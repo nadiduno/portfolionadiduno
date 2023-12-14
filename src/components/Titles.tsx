@@ -1,6 +1,6 @@
 import styles from './Titles.module.css'
 
-export function Titles() {
+export function Titles () {
   return (
     <aside className={styles.titles}>
       <div>

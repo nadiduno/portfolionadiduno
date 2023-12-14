@@ -17,17 +17,17 @@ export interface AppMeType {
 interface AppProps {
   appme: AppMeType
 }
-export function ApplicationMe({ appme }: AppProps) {
+export function ApplicationMe ({ appme }: AppProps) {
   const publishedDateFormat = format(
     appme.publishedAt,
     "dd 'de' LLL 'às' HH:mm'h'",
     {
-      locale: ptBR,
-    },
+      locale: ptBR
+    }
   )
   const publishedDateRelativeToNow = formatDistanceToNow(appme.publishedAt, {
     locale: ptBR,
-    addSuffix: true,
+    addSuffix: true
   })
 
   return (

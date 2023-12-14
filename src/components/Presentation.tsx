@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-// import { NavLink } from 'react-router-dom'
-// import { AppMeType } from '../components/ApplicationMe'
+import { useState, useEffect } from 'react'
 import styles from './Presentation.module.css'
 
 import logoStyled from '../assets/logoStyledComponent.svg'
@@ -16,26 +14,21 @@ import logoJupyter from '../assets/logoJupyter.svg'
 import logoPowerBI from '../assets/logoPowerBI.svg'
 import logoReact from '../assets/logoReact.svg'
 
+const logos: string[] = [`${logoPython}`, `${logoSQL}`, `${logoMongoDB}`, `${logoJupyter}`, `${logoPowerBI}`, `${logoReact}`, `${logoTypeScript}`, `${logoStyled}`, `${logoSass}`, `${logoFigma}`, `${logoGitBash}`, `${logoGitHub}`]
 
-
-let logos: string[] = [`${logoPython}`, `${logoSQL}`, `${logoMongoDB}`, `${logoJupyter}`, `${logoPowerBI}`, `${logoReact}`, `${logoTypeScript}`, `${logoStyled}`, `${logoSass}`, `${logoFigma}`, `${logoGitBash}`, `${logoGitHub}`]
-
-
-
-export function Presentation() {
-  const [textIndex, setTextIndex] = useState(0);
-  const texts = ['Sou Cientista de Dados', 'Sou Desenvolvedora web', 'Sou Professora de TI'];
+export function Presentation () {
+  const [textIndex, setTextIndex] = useState(0)
+  const texts = ['Sou Cientista de Dados', 'Sou Desenvolvedora web', 'Sou Professora de TI']
 
   useEffect(() => {
     // Atualiza o índice do texto a cada 20 segundos
     const interval = setInterval(() => {
-      setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 5000);
+      setTextIndex((prevIndex) => (prevIndex + 1) % texts.length)
+    }, 5000)
 
     // Limpa o intervalo quando o componente é desmontado
-    return () => clearInterval(interval);
-  }, []);
-
+    return () => { clearInterval(interval) }
+  }, [])
 
   return (
     <div className={styles.layout}>
@@ -44,7 +37,7 @@ export function Presentation() {
           <div className={styles.box1}>
 
             <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
-            <p>Formada em matemática com especialização em TI pela Universidade Federal "Francisco de Miranda" na Venezuela.</p>
+            <p>Formada em matemática com especialização em TI pela Universidade Federal &quot;Francisco de Miranda&quot; na Venezuela.</p>
             <span>Apaixonada por conectar</span>
             <span className={styles.text1}> pessoas </span>
             <span>através da Educação e a Tecnologia.</span>

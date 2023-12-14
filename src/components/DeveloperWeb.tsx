@@ -1,9 +1,8 @@
 import styles from './DataScience.module.css'
 import { DeveloperProject } from './DeveloperProject'
 
-
-export function DeveloperWeb() {
-    return (
+export function DeveloperWeb () {
+  return (
         <div className={styles.layout}>
             <br />
             <br />
@@ -20,5 +19,5 @@ export function DeveloperWeb() {
             </div>
         </div>
 
-    )
+  )
 }

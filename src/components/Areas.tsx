@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { AppMeType } from '../components/ApplicationMe'
+import { type AppMeType } from '../components/ApplicationMe'
 
 import logostyled from '../assets/logostyledcomponent.svg'
 import logotypescript from '../assets/logotypescript.svg'
@@ -15,9 +15,9 @@ import logoreact from '../assets/logoreact.svg'
 
 import styles from './Areas.module.css'
 
-let logos: string[][] = [
+const logos: string[][] = [
   [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`],
-  [`${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogithub}`,]
+  [`${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogithub}`]
 ]
 
 const appsme: AppMeType[] = [
@@ -28,9 +28,9 @@ const appsme: AppMeType[] = [
     urlApp: {
       photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true',
       deploy: '/data',
-      github: `${logopython}`,
+      github: `${logopython}`
     },
-    publishedAt: new Date('2023-08-10 23:00:00'),
+    publishedAt: new Date('2023-08-10 23:00:00')
   },
   {
     id: 1,
@@ -39,13 +39,13 @@ const appsme: AppMeType[] = [
     urlApp: {
       photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Frontend.png?raw=true',
       deploy: '/frontend',
-      github: `${logoreact}`,
+      github: `${logoreact}`
     },
-    publishedAt: new Date('2023-08-10 23:00:00'),
+    publishedAt: new Date('2023-08-10 23:00:00')
   }
 ]
 
-export function Areas() {
+export function Areas () {
   return (
     <div className={styles.layout}>
       <main className={styles.wrapper}>
@@ -96,4 +96,3 @@ export function Areas() {
 
   )
 }
-

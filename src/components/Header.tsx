@@ -2,7 +2,7 @@ import styles from './Header.module.css'
 // import { AppWindow, Database, House, } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 
-export function Header() {
+export function Header () {
   return (
     <header className={styles.header}>
       <div>

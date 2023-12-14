@@ -7,8 +7,8 @@ import { Footer } from '../components/Footer'
 
 import styles from './HomePage.module.css'
 
-export function HomePage() {
-    return (
+export function HomePage () {
+  return (
         <>
             <main className={styles.container}>
                 <div>
@@ -26,5 +26,5 @@ export function HomePage() {
             </div>
             <Footer />
         </>
-    )
+  )
 }
