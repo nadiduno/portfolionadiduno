@@ -1,7 +1,5 @@
 .sidebar {
-  width: 100%;
-  margin: 0 auto;
-  padding: .5rem;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +13,7 @@
 
 .hand {
   transition: all ease-in-out 0.3s;
-  transform: rotate(-2deg) translateX(-2%) translateY(-2%);
+  transform: rotate(-4deg) translateX(-4%) translateY(-4%);
 }
 
 .hand:hover {
@@ -51,7 +49,7 @@
 }
 
 .cover:hover {
-  filter: drop-shadow(0 0 6em #646cffaa);
+  filter: drop-shadow(0 0 4em var(--violet-500));
 }
 
 .logosocial {

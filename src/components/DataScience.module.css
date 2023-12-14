@@ -1,6 +1,5 @@
 .layout {
     width: 85%;
-    margin: 0 auto;
 }
 
 .textmain {
@@ -19,13 +18,16 @@
 
 
 @media ((min-width: 768px)) {
+    .layout {
+        width: 100%;
+    }
     .wrapper {
         display: flex;
         gap: 2rem;
     }
 
     .textmain {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
 }

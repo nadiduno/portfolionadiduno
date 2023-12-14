@@ -44,7 +44,7 @@ export function Presentation() {
           <div className={styles.box1}>
 
             <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
-            <p>Formada em matemática com especialização em TI pela Universidade Federal Experimental "Francisco de Miranda" na Venezuela.</p>
+            <p>Formada em matemática com especialização em TI pela Universidade Federal "Francisco de Miranda" na Venezuela.</p>
             <span>Apaixonada por conectar</span>
             <span className={styles.text1}> pessoas </span>
             <span>através da Educação e a Tecnologia.</span>

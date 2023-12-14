@@ -6,7 +6,7 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <div>
         <div className={styles.titleside}>
-          <div className={styles.hand}>👋</div>
+          <div className={styles.hand}>{'👋'}</div>
           <span className={styles.name1}>Eu sou</span>
           <span className={styles.name2}>Nadi Duno</span>
           {/* <span className={styles.name3}>a DevRel</span> */}

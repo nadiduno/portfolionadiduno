@@ -4,9 +4,7 @@ body {
 
 .container,
 .area {
-    width: 100vw;
-    max-width: 1120px;
-    margin: 0 auto;
+    width: 100%;
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
