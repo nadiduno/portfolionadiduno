@@ -11,7 +11,7 @@ const appsme: AppMeType[] = [
       deploy: 'https://app.powerbi.com/view?r=eyJrIjoiMWYxMTVkZjUtMTI2OS00NzBmLWI1MGMtOWQ0Nzc2YzMzNzVkIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
       github: 'https://github.com/nadiduno/DataCientists'
     },
-    publishedAt: new Date('2023-06-11 20:00:00')
+    publishedAt: new Date('2024-03-03 20:00:00')
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const appsme: AppMeType[] = [
       deploy: 'https://app.powerbi.com/view?r=eyJrIjoiOWViNzY0NTctNzhkMC00MzRlLWE1ZjEtMmNjN2IyZWY4ZWNhIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
       github: 'https://github.com/nadiduno/dataPublic'
     },
-    publishedAt: new Date('2023-05-22 23:00:00')
+    publishedAt: new Date('2024-02-22 23:00:00')
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const appsme: AppMeType[] = [
       deploy: 'https://app.powerbi.com/view?r=eyJrIjoiOGVmMjlhZjctNGJjYi00Mjk0LWI4ZDItMzI1MDllOGQ4MGY5IiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
       github: 'https://github.com/nadiduno/dataPublic'
     },
-    publishedAt: new Date('2023-2-14 13:34:00')
+    publishedAt: new Date('2024-2-14 13:34:00')
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const appsme: AppMeType[] = [
       deploy: 'https://app.powerbi.com/view?r=eyJrIjoiMDEwZjJkYzQtYTBmMC00ZWE3LWI5MjktZDJhZTUzODI2NjVhIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
       github: 'https://github.com/nadiduno/dataPublic'
     },
-    publishedAt: new Date('2023-02-14 8:00:00')
+    publishedAt: new Date('2024-01-14 8:00:00')
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const appsme: AppMeType[] = [
       deploy: 'https://app.powerbi.com/view?r=eyJrIjoiNTcyMTFmYzItMTExNS00MDMxLThkNDctOGE5N2JjNTQ4OGM0IiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
       github: 'https://github.com/nadiduno/dataPublic'
     },
-    publishedAt: new Date('2023-01-29 8:00:00')
+    publishedAt: new Date('2024-01-07 8:00:00')
   },
 
   {
