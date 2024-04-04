@@ -10,9 +10,6 @@ export function DeveloperWeb () {
             <p>
                 Escrevo códigos acessibilidade colaborativamente e individuais
             </p>
-            {/* <p>
-                Ajudo pessoas que estão tendo os primeiros contatos com  a tecnologia, por isso tenho criado diversos productos como resultado destas trocas.
-            </p> */}
             <hr />
             <div className={styles.wrap}>
                 <DeveloperProject />

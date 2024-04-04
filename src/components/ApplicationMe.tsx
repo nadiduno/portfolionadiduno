@@ -1,5 +1,3 @@
-// import { format, formatDistanceToNow } from 'date-fns'
-// import ptBR from 'date-fns/locale/pt-BR'
 import styles from './ApplicationMe.module.css'
 
 interface UrlApp {
@@ -18,18 +16,6 @@ interface AppProps {
   appme: AppMeType
 }
 export function ApplicationMe ({ appme }: AppProps) {
-  // const publishedDateFormat = format(
-  //   appme.publishedAt,
-  //   "dd 'de' LLL 'às' HH:mm'h'",
-  //   {
-  //     locale: ptBR
-  //   }
-  // )
-  // const publishedDateRelativeToNow = formatDistanceToNow(appme.publishedAt, {
-  //   locale: ptBR,
-  //   addSuffix: true
-  // })
-
   return (
     <div className={styles.layout}>
       <div className={styles.boxmain}>
@@ -42,14 +28,6 @@ export function ApplicationMe ({ appme }: AppProps) {
         <div className={styles.box2}>
           <p className={styles.text1}>{appme.title}</p>
           <p>{appme.about}</p>
-          {/* <p className={styles.text2}>
-            <time
-              title={publishedDateFormat}
-              dateTime={appme.publishedAt.toISOString()}
-            >
-              {publishedDateRelativeToNow}
-            </time>
-          </p> */}
           <div className={styles.space}>
             <a
               href={appme.urlApp.deploy}

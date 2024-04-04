@@ -82,7 +82,6 @@
   cursor: pointer;
   transition: background-color 0.1s;
   border: none;
-  /* border-top: 1.25px solid var(--white); */
 }
 
 .socialnetworks:first-child {
@@ -96,7 +95,7 @@
 }
 
 
-@media ((min-width: 768px)) {
+@media only screen and (min-width: 768px) {
   body {
     font-size: 2rem;
   }

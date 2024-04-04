@@ -91,16 +91,19 @@
     transition: 0.1s;
     color: rgba(0, 0, 0, 75);
 }
+.wrapper {
+    display: flex;
+    gap: 1rem;
+}
 
 .wrap {
     display: flex;
     gap: 1rem;
 }
 
-@media ((min-width: 768px)) {
+@media only screen and (min-width: 768px) {
     .wrapper {
         display: flex;
         gap: 2rem;
     }
-
 }
