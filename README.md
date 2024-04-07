@@ -45,4 +45,4 @@ Este é meu [Diario de estudo](https://devrelnadiduno.blogspot.com/)
 <br />
 <br />
 
-[Link do Potfólio](https://portfolio-nadi.vercel.app/) 
+[Link do Potfólio](https://portfolionadiduno.vercel.app/) 
