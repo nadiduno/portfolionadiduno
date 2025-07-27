@@ -32,6 +32,9 @@
   color: var(--violet-500);
   font-weight: bold;
   padding-top: 1rem;
+  display: flex; /* Transforma o parágrafo em um contêiner flexível */
+  justify-content: space-between; /* Empurra o primeiro item (título) para a esquerda e o segundo (selo) para a direita */
+  align-items: center; 
 }
 
 .text2 {
@@ -84,6 +87,14 @@
   transform: scale(1.2);
 }
 
+.newBadge {
+  background-color: var(--green-700);
+  color: white;
+  padding: 4px 6px;
+  align-content: end;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
 
 @media only screen and (min-width: 768px) {
   .boxmain {
