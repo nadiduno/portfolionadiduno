@@ -22,7 +22,7 @@ export function Sidebar () {
                 className={styles.logosocial}
                 src={'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/Linkedin1.svg?raw=true'}
                 // alt=""
-                // title='Instagram'
+                title='Linkedin'
               />
 
             </a>
@@ -36,21 +36,21 @@ export function Sidebar () {
                 className={styles.logosocial}
                 src={'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/Instagram1.svg?raw=true'}
               // alt=""
-              // title='Instagram'
+              title='Instagram'
               />
             </a>
 
             <a
-              href="https://www.youtube.com/watch?v=sG0e7vlFRDE&t=32s"
+              href="https://api.whatsapp.com/send/?phone=584122904297&text&type=phone_number&app_absent=0"
               target="_blank"
               className={styles.socialnetworks}
               rel="noreferrer"
             >
               <img
                 className={styles.logosocial}
-                src={'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/Youtube1.svg?raw=true'}
+                src={'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/Whatsapp.svg?raw=true'}
                 // alt=""
-                // title='Instagram'
+                title='Whatsapp'
               />
             </a>
           </div>
