@@ -11,6 +11,7 @@ export interface AppMeType {
   about: string
   urlApp: UrlApp
   publishedAt?: Date
+  isNew?: boolean 
 }
 interface AppProps {
   appme: AppMeType
@@ -26,7 +27,9 @@ export function ApplicationMe ({ appme }: AppProps) {
           />
         </div>
         <div className={styles.box2}>
-          <p className={styles.text1}>{appme.title}</p>
+          <p className={styles.text1}>{appme.title}
+          {appme.isNew && <span className={styles.newBadge}> Novo</span>}
+          </p>
           <p>{appme.about}</p>
           <div className={styles.space}>
             <a
